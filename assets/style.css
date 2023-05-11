@@ -1,0 +1,38 @@
+* {
+
+}
+
+:root {
+    --blue1:aqua;
+    --blue2:blue;
+
+}
+
+header {
+    color:black;
+    padding: 20px;
+    background-color: var(blue1);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header h1 {
+    display:inline-block;
+    font-size: 40px;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px
+}
+
+header div ul {
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px
+}
